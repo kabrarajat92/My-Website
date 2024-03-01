@@ -1062,7 +1062,7 @@ function initContactForm() {
           $(this).parent().toggleClass('not-empty', text_val !== "");
       }).focusout();
   });
-
+  
 }
 
 /**
@@ -1078,7 +1078,7 @@ function initTimeZone() {
   const timeSpan = document.querySelector("#timeSpan");
 
   const optionsTime = {
-    timeZone: 'Europe/Amsterdam',
+    timeZone: 'Asia/Kolkata',
     timeZoneName: 'short',
     // year: 'numeric',
     // month: 'numeric',

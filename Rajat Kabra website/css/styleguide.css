@@ -58,14 +58,14 @@
     --color-blue-dark: #334BD3;
     --color-gray: #BEEF62;
     --color-lightgray: #E9EAEB;
-    --color-white: #F4743B;
+    --color-white: #e48805;
     
-    --color-border: rgba(28, 29, 32, 0.175);
+    --color-border: rgba(0, 0, 0, 0.683);
     --color-border-solid: #D2D2D2;
-    --color-border-light: rgba(255, 255, 255, 0.2);
-    --color-border-solid-light: #545557;
+    --color-border-light: rgba(32, 157, 192, 0.646);
+    --color-border-solid-light: #121212;
 
-    --color-text: #1C1D20;
+    --color-text: #111212;
     --color-text-light: #FFF;
 
     --alert-error: #ff4444;
@@ -314,7 +314,7 @@ p a {
 }
 
 .flex-col {
-    display: block;
+    display: var(--alert-success);
     width: 100%;
     order: 2;
     position: relative;
@@ -1115,6 +1115,14 @@ main .btn-hamburger.active {
 .form textarea.field {
    resize: vertical;
    resize: none;
+}
+
+.form .field .error-text{
+    font-size: 14.5px;
+    color: #e51a1a;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
 }
 
 .form .label {
